@@ -1,0 +1,8 @@
+<!-- Generated template for the PersonComponent component -->
+<ion-card *ngIf="person">
+  <ion-card-header>{{person.name}}</ion-card-header>
+  <ion-card-content>
+    <ion-icon [name]="getIcon()"></ion-icon>
+    {{getBirthYear()}}
+  </ion-card-content>
+</ion-card>

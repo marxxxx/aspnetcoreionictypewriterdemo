@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <person *ngFor="let p of persons" [person]="p"></person>
+ 
+  <button ion-button secondary (click)="onLoad()">Load</button>
+</ion-content>
