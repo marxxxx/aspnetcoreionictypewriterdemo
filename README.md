@@ -2,10 +2,11 @@
 Sample using an Ionic Frontend and ASP.NET Core Backend together with Typewriter to automatically create DTOs from the Backend in the Frontend Project.
 
 # Prerequisites
-- Node and NPM
-- Ionic
+- Node and NPM (https://nodejs.org/en/download/)
+- Ionic (https://ionicframework.com/getting-started/)
 - Visual Studio 2017
 - Typewriter Extension (https://github.com/frhagn/Typewriter)
+
 
 # How to run this sample
 1. Open Command Prompt in Solution Folder
