@@ -11,5 +11,6 @@ Sample using an Ionic Frontend and ASP.NET Core Backend together with Typewriter
 1. Open Command Prompt in Solution Folder
 2. dotnet run
 3. Open Command Prompt in \ClientApp Folder
-4. ionic serve
+4. npm install
+5. ionic serve
 5. Press "Load" to call backend
