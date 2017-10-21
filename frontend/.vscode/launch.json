@@ -9,7 +9,7 @@
         "request": "launch",
         "name": "Launch Chrome",
         "url": "http://localhost:8100",
-        "webRoot": "${workspaceRoot}"
+        "webRoot": "${workspaceRoot}/www"
     }
     ]
 }
